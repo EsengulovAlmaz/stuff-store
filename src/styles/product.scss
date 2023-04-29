@@ -1,0 +1,50 @@
+.product {
+  width: 77%;
+  background: #191919;
+  border-radius: 6px;
+  padding: 25px;
+  &__row {
+    display: flex;
+    gap: 20px;
+  }
+  &__image {
+    width: 35%;
+    height: 300px;
+    border-radius: 6px;
+  }
+  &__info {
+    color: #ffffff;
+    &-title {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    &-price {
+      font-weight: 900;
+      margin: 10px 0;
+    }
+    &-category {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #616E74;
+      margin: 20px 0;
+    }
+    &-rating {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #616E74;
+      margin: 20px 0;
+    }
+    &-desc {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff;
+      margin: 10px 0;
+    }
+  }
+  &__footer {
+    margin-top: 20px;
+  }
+}

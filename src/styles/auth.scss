@@ -1,0 +1,74 @@
+.auth {
+  width: 77%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  left: 30%;
+  &__wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    color: #ffffff;
+  }
+  &__form {
+    background: #191919;
+    padding: 25px 40px;
+    border-radius: 6px;
+    &-title {
+      font-weight: 400;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    &-btn {
+      display: block;
+      border-radius: 6px;
+      background: none;
+      margin: 20px auto 0;
+      padding: 8px 30px;
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: #000000;
+      }
+    }
+  }
+  &__banner {
+    background: #191919;
+    padding: 25px 40px;
+    border-radius: 6px;
+    &-signin {
+      border: 0;
+      background: none;
+      color: rgb(0, 0, 255);
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__footer {
+    margin-top: 50px;
+  }
+}
+
+.input {
+  display: block;
+  border-radius: 6px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #191919;
+  margin: 8px 0;
+}
+
+
+.register-active {
+  display: none;
+}
+.login {
+  display: none;
+}

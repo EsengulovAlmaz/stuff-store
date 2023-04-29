@@ -1,0 +1,60 @@
+.new {
+  margin-top: 20px;
+  &__content {
+    display: flex;
+  }
+  &__left {
+    width: 50%;
+    padding: 74px 139px 160px 103px;
+    background: #191919;
+    border-radius: 6px 0 0 6px;
+    position: relative;
+    &::before {
+      content: url("../images/sneak.png");
+      position: absolute;
+      bottom: -30px;
+      right: -30px;
+      z-index: 2;
+    }
+    &::after {
+      content: url("../images/gamepad.png");
+      position: absolute;
+      bottom: 40px;
+      left: -30px;
+    }
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 85px;
+    text-align: center;
+    color: #6C3EB8;
+    &-big {
+      font-size: 150px;
+      line-height: 183px;
+    }
+  }
+  &__btn {
+    display: block;
+    margin: 0 auto;
+  }
+  &__right {
+    width: 50%;
+    position: relative;
+    background: url("../images/santa.png") center/cover no-repeat;
+    &-text {
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      color: #212123;
+      span {
+        font-weight: 600;
+        color: #6C3EB8;
+      }
+    }
+  }
+}

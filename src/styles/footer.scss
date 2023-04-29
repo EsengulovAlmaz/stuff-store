@@ -1,0 +1,32 @@
+.footer {
+  &__nav {
+    background: #191919;
+    border-radius: 6px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__develop {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #576067;
+    span {
+      color: #6C3EB8;
+    }
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+  }
+  &__link{
+    &:hover {
+      svg path{
+        fill: #6C3EB8;
+      }
+    }
+  }
+
+}
